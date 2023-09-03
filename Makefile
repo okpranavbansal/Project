@@ -1,3 +1,3 @@
-kilo:kilo.c
-	$(gcc) kilo.c -o kilo -Wall -Wextra -pedantic -stdc=c99
-	$(cp) kilo.c copykilo.c
+gram:gram.c
+	$(gcc) gram.c -o gram -Wall -Wextra -pedantic -stdc=c99
+	$(cp) gram.c copygram.c
